@@ -39,7 +39,7 @@ public class GenericResource {
     @GET
      @Path("/hola")
     @Produces("application/json")
-    public String getJson() {
+    public String hola() {
       return "Hola mundo";
     }
     @GET
